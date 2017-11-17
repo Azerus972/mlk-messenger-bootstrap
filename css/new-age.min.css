@@ -281,9 +281,10 @@ section.cta .cta-content {
 section.cta .cta-content h2 {
     font-size: 50px;
     max-width: 450px;
+    margin-left: 300px;
     margin-top: 0;
     margin-bottom: 25px;
-    color: #fff;
+    color: rgb(250, 224, 110);
 }
 
 section.cta .overlay {
