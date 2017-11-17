@@ -10,7 +10,7 @@
 
     <title>MLK Messenger</title>
 
-
+    <!-- Réalisé avec une base de template bootstrap ^-^ -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!--fonts nécessaires -->
@@ -44,7 +44,7 @@
                         <a class="nav-link js-scroll-trigger" href="#download">Téléchargement</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#features">Fonctionnalitées</a>
+                        <a class="nav-link js-scroll-trigger" href="#features">Fonctionnalités</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -61,7 +61,7 @@
                     <div class="header-content mx-auto">
                         <h1 class="mb-5">Une application de messagerie basée sur le client Télégram Simple, Intuitive et surtout Gratuite !</h1>
 
-                        <!-- Petite keyframe sur le bouton avec un effet pulse -->
+                        <!-- Petite keyframe ".pulse" sur le bouton avec un effet pulse et un petit halo bleu ".btn-outline" visible après un onclick -->
                         <a href="#download" class="btn btn-outline pulse btn-xl js-scroll-trigger">Testez la gratuitement!</a>
                     </div>
                 </div>
@@ -85,6 +85,9 @@
         </div>
     </header>
     <!-- sections -->
+
+    <!-- Là j'ai pas mal galérer avec le flexbox pour arriver à mon  résultat mais ça fonctionne :) -->
+
     <section class="download bg-primary text-center" id="download">
         <div class="container">
             <div class="row">
@@ -96,7 +99,7 @@
 
                 </div>
 
-                <!--premier shot -->
+                <!--premier shot application d'un device-mockup + screen -->
                 <div class="col-lg-5 my-auto ">
                     <div class="device-container mob-intro -flex justify-content-center">
                         <div class="device-mockup galaxy_s5 landscape gold">
@@ -111,7 +114,7 @@
                     </div>
                 </div>
 
-                <!-- second shot -->
+                <!-- second shot application d'un device-mockup + screen -->
 
                 <div class="col-lg-5 my-auto">
                     <div class="device-container mob-intro">
@@ -125,18 +128,19 @@
                     </div>
                 </div>
 
-                <!-- badges -->
+                <!-- badges link classique badge google et petit trick sur le badge ios ;p -->
                 <div class="badges  d-flex flex-row justify-content-center">
                     <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.wDeliRiders69_4652949"><img src="img/google-play-badge.svg" alt=""></a>
                     <a class="badge-link" href="ios.html"><img src="img/app-store-badge.svg" alt=""></a>
                 </div>
     </section>
 
+    <!-- pictos édités application d'un device-mockup style nexus 7 + screenshot -->
 
     <section class="features" id="features">
         <div class="container">
             <div class="section-heading text-center">
-                <h2>De nombreuses fonctionnalitées</h2>
+                <h2>De nombreuses fonctionnalités</h2>
                 <p class="text-muted">Discutez avec vos amis via chat ou appel vocal c'est vous qui décidez ;)</p>
                 <hr>
             </div>
@@ -162,8 +166,8 @@
                             <div class="col-lg-6">
                                 <div class="feature-item">
                                     <i class="icon-screen-desktop text-primary"></i>
-                                    <h3>Multi-Plateforme</h3>
-                                    <p class="text-muted">Commencer votre conversation sur l'appli et terminez la sur Tablette / PC / Mac / Linux !</p>
+                                    <h3>Multi-Plateformes</h3>
+                                    <p class="text-muted">Commencez votre conversation sur l'appli et terminez la sur Tablette / PC / Mac / Linux !</p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
